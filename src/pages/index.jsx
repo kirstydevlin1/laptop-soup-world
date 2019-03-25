@@ -74,29 +74,29 @@ const Index = () => (
         <ProjectsWrapper>
           <ProjectCard
             title="Donate"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
-            bg="linear-gradient(to right, #63F 100%, #E9AFA3 0%)"
+            link=""
+            bg="linear-gradient(to right, #06a585 100%, #E9AFA3 0%)"
           >
             Find out how you can donate spare and unwanted devices..
           </ProjectCard>
           <ProjectCard
             title="Apply"
             link="https://goo.gl/forms/CON86eAHAreAygdN2"
-            bg="linear-gradient(to right, #63F 100%, #ED1E79 0%)"
+            bg="linear-gradient(to right, #06a585 100%, #ED1E79 0%)"
           >
             If you would like to make an application for a device, please complete our quick and simple application form.
           </ProjectCard>
           <ProjectCard
             title="Success Stories"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #63F 100%, #FCEE21 0%)"
+            bg="linear-gradient(to right, #06a585 100%, #FCEE21 0%)"
           >
            Want to see some positive impact?!
           </ProjectCard>
           <ProjectCard
             title="Newsletter"
             link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #256EFF 100%, #3A405A 0%)"
+            bg="linear-gradient(to right, #06a585 100%, #3A405A 0%)"
           >
             To keep up to date with all of the latest news and devices
           </ProjectCard>
@@ -109,17 +109,9 @@ const Index = () => (
       <Title> Thanks for your continuous generosity</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Bruntwood" />
-          <AboutSub>
-            "The office has recently gone through a refurbishment and we wanted to help re-cycle our unwanted laptops and given to a good cause."
-          </AboutSub>
+          <Avatar src={avatar} alt="Bruntwood" />
         </AboutHero>
 
-        <AboutHero>
-          <Avatar src={avatar} alt="Bruntwood" />
-          <AboutSub>
-            "The office has recently gone through a refurbishment and we wanted to help re-cycle our unwanted laptops and given to a good cause."
-          </AboutSub>
-        </AboutHero>
         <AboutDesc>
         </AboutDesc>
       </About>
