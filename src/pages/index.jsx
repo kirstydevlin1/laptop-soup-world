@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/avatar2.png'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -42,7 +42,7 @@ const Avatar = styled.img`
 `
 
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl font-montserrat lg:text-3xl xl:text-4xl`};
 `
 
 const AboutDesc = styled.p`
@@ -54,7 +54,7 @@ const ContactText = styled.p`
 `
 
 const Footer = styled.footer`
-  ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
+  ${tw`text-center text-grey absolute pin-b p-6 font-sans font: focus text-md lg:text-lg`};
 `
 
 const Index = () => (
@@ -63,7 +63,7 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Laptop Soup
+            Laptop Soup
         </BigTitle>
         <Subtitle> We collect unwanted laptops and gadgets and distribute them to those from disadvantaged backgrounds who are learning to code. </Subtitle>
       </Hero>
@@ -75,28 +75,28 @@ const Index = () => (
           <ProjectCard
             title="Donate"
             link="https://www.behance.net/gallery/58937147/Freiheit"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            bg="linear-gradient(to right, #63F 100%, #E9AFA3 0%)"
           >
-            Find out how you can donate a device..
+            Find out how you can donate spare and unwanted devices..
           </ProjectCard>
           <ProjectCard
-            title="Request a Device"
+            title="Apply"
             link="https://goo.gl/forms/CON86eAHAreAygdN2"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to right, #63F 100%, #ED1E79 0%)"
           >
-            If you would like to request a device, click here.
+            If you would like to make an application for a device, please complete our quick and simple application form.
           </ProjectCard>
           <ProjectCard
-            title="Sign your club"
+            title="Success Stories"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            bg="linear-gradient(to right, #63F 100%, #FCEE21 0%)"
           >
-            Would you like to add your club or charity up for donated devices?
+           Want to see some positive impact?!
           </ProjectCard>
           <ProjectCard
             title="Newsletter"
             link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            bg="linear-gradient(to right, #256EFF 100%, #3A405A 0%)"
           >
             To keep up to date with all of the latest news and devices
           </ProjectCard>
@@ -108,7 +108,14 @@ const Index = () => (
       </BigTitle>
       <Title> Thanks for your continuous generosity</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Bruntwood" />
+          <AboutSub>
+            "The office has recently gone through a refurbishment and we wanted to help re-cycle our unwanted laptops and given to a good cause."
+          </AboutSub>
+        </AboutHero>
+
+        <AboutHero>
+          <Avatar src={avatar} alt="Bruntwood" />
           <AboutSub>
             "The office has recently gone through a refurbishment and we wanted to help re-cycle our unwanted laptops and given to a good cause."
           </AboutSub>
@@ -126,9 +133,9 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Kirsty Devlin{' '}
-          <a href="https://twitter.com/kirstydevlin1">Twitter</a>. Made by{' '}
-          <a href="https://www.kirstydevlin.co.uk">Kirsty Devlin</a>.
+          &copy; 2019 Made with love by {' '} <a href="https://twitter.com/kirstydevlin1">Kirsty Devlin</a> & {' '}
+         Shauna Devlin
+          <a href=""></a>.
         </Footer>
       </Contact>
     </Parallax>

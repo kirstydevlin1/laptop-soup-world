@@ -122,6 +122,7 @@ const colors = {
   'purple-light': '#a779e9',
   'purple-lighter': '#d6bbfc',
   'purple-lightest': '#f3ebff',
+  'purple-hiphop': '#63F',
 
   'pink-darkest': '#45051e',
   'pink-darker': '#72173a',
@@ -222,6 +223,7 @@ module.exports = {
       'serif',
     ],
     mono: ['Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
+    fonts: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
   },
 
   /*
