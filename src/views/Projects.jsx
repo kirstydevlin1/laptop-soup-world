@@ -10,35 +10,26 @@ import SVG from '../components/SVG'
 const Projects = ({ children, offset }) => (
   <>
     <DividerMiddle
-      bg="linear-gradient(to left, #0fc 0%, SlateBlue 100% )"
+      bg="linear-gradient(to left, #2e1675 100%, SlateBlue 0% )"
       speed={-0.2}
       offset={`${offset}.1`}
       factor={2}
     />
-    <Content speed={0.4} offset={`${offset}.2`} factor={2}>
+    <Content speed={0.6} offset={`${offset}.2`} factor={2}>
       <Inner>{children}</Inner>
     </Content>
-    <Divider speed={0.1} offset={offset} factor={2}>
+    <Divider speed={0.3} offset={offset} factor={2}>
       <UpDown>
         <SVG icon="box" width={6} fill={colors.white} left="85%" top="75%" />
-        <SVG icon="upDown" width={8} fill={colors.teal} left="70%" top="20%" />
-        <SVG icon="triangle" width={8} stroke={colors.orange} left="25%" top="5%" />
-        <SVG icon="circle" hiddenMobile width={24} fill={colors.white} left="17%" top="60%" />
+        <SVG icon="hexa" width={8} fill={colors['purple-hiphop']} left="70%" top="20%" />
+        <SVG icon="triangle" width={8} stroke={colors['purple-hiphop']} left="25%" top="5%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="arrowUp" hiddenMobile width={16} fill={colors.green} left="20%" top="90%" />
-        <SVG icon="triangle" width={12} stroke={colors.white} left="90%" top="30%" />
-        <SVG icon="circle" width={16} fill={colors.yellow} left="70%" top="90%" />
-        <SVG icon="triangle" hiddenMobile width={16} stroke={colors.teal} left="18%" top="75%" />
-        <SVG icon="circle" width={6} fill={colors['yellow-dark']} left="75%" top="10%" />
-        <SVG icon="upDown" hiddenMobile width={8} fill={colors.green} left="45%" top="10%" />
+        <SVG icon="arrowUp" hiddenMobile width={16} fill={colors['purple-hiphop']} left="20%" top="90%" />
+        <SVG icon="circle" width={16} fill={colors['purple-hiphop']} left="70%" top="90%" />
+        <SVG icon="circle" width={6} fill={colors['purple-hiphop']} left="75%" top="10%" />
       </UpDownWide>
-      <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%" />
-      <SVG icon="circle" width={12} fill={colors.pink} left="80%" top="60%" />
-      <SVG icon="box" width={6} fill={colors.orange} left="10%" top="10%" />
-      <SVG icon="box" width={12} fill={colors.yellow} left="29%" top="26%" />
-      <SVG icon="hexa" width={16} stroke={colors.red} left="75%" top="30%" />
-      <SVG icon="hexa" width={28} stroke={colors['indigo-light']} left="80%" top="70%" />
+      <SVG icon="hexa" width={8} stroke={colors.white} left="20%" top="70%" />
     </Divider>
   </>
 )

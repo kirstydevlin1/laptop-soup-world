@@ -68,6 +68,7 @@ const icons = {
     ),
     viewBox: '0 0 30 30',
   },
+
   cross: {
     shape: (
       <path
